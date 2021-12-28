@@ -1,4 +1,4 @@
-#!/home/liuzixing/Music_processing/.env/bin/python
+#!/home/liuzixing/Music_processing/music/.env/bin/python
 
 import sys
 import getopt

@@ -11,6 +11,7 @@ class Ffmpeg_tools:
         "mv_to_audio": "ffmpeg -i {0} -f wav -ar 16000 {1}",
         "split_audio": "ffmpeg -i {0} -vn -acodec copy -ss {1} -to {2} -c copy {3}",
         "zip_to_mp3": "ffmpeg -i {0} -b:a 64k -acodec mp3 -ar 44100 -ac 1 {1}",
+        "splite_voice":"separate -i audio_example.mp3 -p spleeter:2stems -o output"
     }
     
     
